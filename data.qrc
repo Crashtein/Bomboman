@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>bomboman_data/way.png</file>
+        <file>bomboman_data/menu.png</file>
+        <file>bomboman_data/player_five.png</file>
+        <file>bomboman_data/player_four.png</file>
+        <file>bomboman_data/player_one.png</file>
+        <file>bomboman_data/player_seven.png</file>
+        <file>bomboman_data/player_six.png</file>
+        <file>bomboman_data/player_three.png</file>
+        <file>bomboman_data/player_two.png</file>
+        <file>bomboman_data/stone.png</file>
+        <file>bomboman_data/wall.png</file>
+        <file>bomboman_data/player_eight.png</file>
+        <file>bomboman_data/bomb.png</file>
+        <file>bomboman_data/flame.png</file>
+        <file>bomboman_data/nBomb_bonus.png</file>
+        <file>bomboman_data/rangebonus.png</file>
+        <file>bomboman_data/speed_bonus.png</file>
+    </qresource>
+</RCC>

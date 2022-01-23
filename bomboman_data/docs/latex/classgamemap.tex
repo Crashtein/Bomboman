@@ -1,0 +1,89 @@
+\hypertarget{classgamemap}{}\doxysection{gamemap Class Reference}
+\label{classgamemap}\index{gamemap@{gamemap}}
+Inheritance diagram for gamemap\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgamemap}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgamemap_af584abf18bb0ef723e2036e15a7f0255}\label{classgamemap_af584abf18bb0ef723e2036e15a7f0255}} 
+void {\bfseries update} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgamemap_a4690be6df8abb6e1f31d58b21d09269f}\label{classgamemap_a4690be6df8abb6e1f31d58b21d09269f}} 
+{\bfseries gamemap} (int n\+Players, Q\+String map\+Name, int game\+Speed, bool bots, \mbox{\hyperlink{classgame}{game}} $\ast$parent\+Game)
+\item 
+\mbox{\Hypertarget{classgamemap_a5b5bc23a845cbfe35128625fe3b86348}\label{classgamemap_a5b5bc23a845cbfe35128625fe3b86348}} 
+void {\bfseries load\+Map} ()
+\item 
+\mbox{\Hypertarget{classgamemap_a0b919a05bc293723c4663cf8560d1875}\label{classgamemap_a0b919a05bc293723c4663cf8560d1875}} 
+void {\bfseries key\+Pressed} (int key)
+\item 
+\mbox{\Hypertarget{classgamemap_a9bcfceb10a4807ffb44e84dd3d926b2e}\label{classgamemap_a9bcfceb10a4807ffb44e84dd3d926b2e}} 
+void {\bfseries back\+To\+Menu} ()
+\item 
+\mbox{\Hypertarget{classgamemap_aecb753deff6d99560ac91590b51c0467}\label{classgamemap_aecb753deff6d99560ac91590b51c0467}} 
+void {\bfseries update\+Ctrs} ()
+\item 
+\mbox{\Hypertarget{classgamemap_acbaad099d59d4d23f6d689d71b5f9106}\label{classgamemap_acbaad099d59d4d23f6d689d71b5f9106}} 
+void {\bfseries del\+To\+Del} ()
+\item 
+\mbox{\Hypertarget{classgamemap_a4f736d608f6939e2fc568d1b1874fd43}\label{classgamemap_a4f736d608f6939e2fc568d1b1874fd43}} 
+void {\bfseries add\+Map\+Object} (int x, int y, int type, int num=0)
+\item 
+\mbox{\Hypertarget{classgamemap_a0cb01e74b5585fffa0c3c18574d2a843}\label{classgamemap_a0cb01e74b5585fffa0c3c18574d2a843}} 
+void {\bfseries add\+Map\+Object} (int x, int y, int type, \mbox{\hyperlink{class_bomboman}{Bomboman}} $\ast$parent\+Bomber)
+\item 
+\mbox{\Hypertarget{classgamemap_a17a1696dedc5051c6768dfef5434bfac}\label{classgamemap_a17a1696dedc5051c6768dfef5434bfac}} 
+void {\bfseries add\+At\+End} (\mbox{\hyperlink{class_map_object}{Map\+Object}} $\ast$wsk)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgamemap_a2398ecc7fc969f17fcb91ddf6234be37}\label{classgamemap_a2398ecc7fc969f17fcb91ddf6234be37}} 
+int {\bfseries map\+Width}
+\item 
+\mbox{\Hypertarget{classgamemap_a735d1cd756d039e3deffa5f930a22122}\label{classgamemap_a735d1cd756d039e3deffa5f930a22122}} 
+int {\bfseries map\+Height}
+\item 
+\mbox{\Hypertarget{classgamemap_a1600ceb79c37a779fcceb47b95618ff0}\label{classgamemap_a1600ceb79c37a779fcceb47b95618ff0}} 
+int {\bfseries n\+Players}
+\item 
+\mbox{\Hypertarget{classgamemap_a7109fb08032b2ac4608a526317c72a20}\label{classgamemap_a7109fb08032b2ac4608a526317c72a20}} 
+int {\bfseries game\+Speed} =1
+\item 
+\mbox{\Hypertarget{classgamemap_af1717c0e98d4cda4d4668ae5e5be22aa}\label{classgamemap_af1717c0e98d4cda4d4668ae5e5be22aa}} 
+int {\bfseries game\+Number\+Update\+Cycles}
+\item 
+\mbox{\Hypertarget{classgamemap_a3ca26058471c2e86c196fa13151e0486}\label{classgamemap_a3ca26058471c2e86c196fa13151e0486}} 
+bool {\bfseries bots}
+\item 
+\mbox{\Hypertarget{classgamemap_a4e3215bfcd85efb903fbd05c78725df1}\label{classgamemap_a4e3215bfcd85efb903fbd05c78725df1}} 
+bool {\bfseries pause} =false
+\item 
+\mbox{\Hypertarget{classgamemap_ace0ad0d14c89f221e340cea05243c77a}\label{classgamemap_ace0ad0d14c89f221e340cea05243c77a}} 
+Q\+String {\bfseries map\+Name}
+\item 
+\mbox{\Hypertarget{classgamemap_ab121df153279472966d952b1d4b31771}\label{classgamemap_ab121df153279472966d952b1d4b31771}} 
+Q\+Timer $\ast$ {\bfseries timer}
+\item 
+\mbox{\Hypertarget{classgamemap_a304b4c1e107819b214994c8896c087c9}\label{classgamemap_a304b4c1e107819b214994c8896c087c9}} 
+\mbox{\hyperlink{classgame}{game}} $\ast$ {\bfseries parent\+Game}
+\item 
+\mbox{\Hypertarget{classgamemap_a23ffeb90ae4eac0755e246af3de9a3f6}\label{classgamemap_a23ffeb90ae4eac0755e246af3de9a3f6}} 
+\mbox{\hyperlink{class_map_object}{Map\+Object}} $\ast$ {\bfseries map\+Object\+Head}
+\item 
+\mbox{\Hypertarget{classgamemap_ae7e1fbd426e8c1e0290e72562a6b3b27}\label{classgamemap_ae7e1fbd426e8c1e0290e72562a6b3b27}} 
+\mbox{\hyperlink{classgame__window}{game\+\_\+window}} $\ast$ {\bfseries game\+\_\+win}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Q\+Ta Programy/\+Bomboman/gamemap.\+h\item 
+E\+:/\+Q\+Ta Programy/\+Bomboman/gamemap.\+cpp\end{DoxyCompactItemize}

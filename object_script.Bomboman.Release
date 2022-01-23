@@ -1,0 +1,14 @@
+release/block.o
+release/bomb.o
+release/bomboman.o
+release/game.o
+release/game_window.o
+release/gamemap.o
+release/gmapobject.o
+release/main.o
+release/game_menu.o
+release/mapobject.o
+release/qrc_data.o
+release/moc_game_menu.o
+release/moc_game_window.o
+release/moc_gamemap.o

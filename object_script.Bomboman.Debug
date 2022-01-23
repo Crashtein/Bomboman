@@ -1,0 +1,14 @@
+debug/block.o
+debug/bomb.o
+debug/bomboman.o
+debug/game.o
+debug/game_window.o
+debug/gamemap.o
+debug/gmapobject.o
+debug/main.o
+debug/game_menu.o
+debug/mapobject.o
+debug/qrc_data.o
+debug/moc_game_menu.o
+debug/moc_game_window.o
+debug/moc_gamemap.o
